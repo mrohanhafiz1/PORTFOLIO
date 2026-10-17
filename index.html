@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<!-- Loading Screen -->
+<div class="loader" id="pageLoader">
+    <div class="loader-content">
+        <div class="loader-logo">P<span>.</span></div>
+        <div class="loader-line">
+            <div class="loader-progress"></div>
+        </div>
+        <p>LOADING EXPERIENCE</p>
+    </div>
+</div>
+
+
+<!-- Custom Cursor -->
+<div class="custom-cursor" id="customCursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+    
+    
+<header class="header" id="header">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">R</span>
+            <span>Portfolio<span class="logo-dot">.</span></span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#reviews" class="nav-link">Reviews</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <a href="#contact" class="header-btn">
+            Let's Talk <span>↗</span>
+        </a>
+
+    </div>
+</header>
+
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="home-container">
+
+        <div class="home-content">
+            <p class="home-tag">
+                <span class="status-dot"></span>
+                AVAILABLE FOR WORK
+            </p>
+
+            <h1>
+                Hello, I'm <br>
+                <span class="home-name">Rohan Rashid</span>
+            </h1>
+
+            <h2>Web Developer & Graphic Designer</h2>
+
+            <p class="home-description">
+                I create modern, responsive and visually attractive
+                websites that help businesses build a strong online
+                presence.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#contact" class="home-btn">
+                    Contact Me <span>↗</span>
+                </a>
+
+                <a href="#about" class="home-secondary-btn">
+                    About Me <span>↓</span>
+                </a>
+            </div>
+
+            <div class="home-social">
+                <span>Creative.</span>
+                <span class="social-line"></span>
+                <span>Professional.</span>
+                <span class="social-line"></span>
+                <span>Reliable.</span>
+            </div>
+        </div>
+
+        <div class="home-image-area">
+            <div class="image-backdrop"></div>
+
+            <div class="image-frame">
+                <img
+                    src="./rohan image.jpeg"
+                    alt="My profile picture"
+                    class="profile-image"
+                >
+            </div>
+
+            <div class="image-label">
+                <span class="label-icon">✦</span>
+                <div>
+                    <strong>Creative Mind</strong>
+                    <p>Turning ideas into reality</p>
+                </div>
+            </div>
+
+            <div class="image-number">01 / PORTFOLIO</div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="about-container">
+
+        <div class="about-image">
+            <div class="about-image-bg"></div>
+
+            <img
+                src="./rohan image.jpeg"
+                alt="My profile picture"
+                class="about-profile"
+            >
+
+            <div class="about-image-tag">
+                <span class="about-star">✦</span>
+                <div>
+                    <h3>Creative Designer</h3>
+                    <p>Focused on quality</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="about-label">
+                <span></span> ABOUT ME
+            </p>
+
+            <h2>
+                Turning Ideas Into
+                <span>Digital Experiences.</span>
+            </h2>
+
+            <p class="about-text">
+                Hello! I'm Your Name, a passionate Web Developer
+                and Graphic Designer. I enjoy creating clean,
+                modern and responsive websites with attractive
+                designs and smooth user experiences.
+            </p>
+
+            <p class="about-text">
+                I work with HTML, CSS and JavaScript to build
+                websites, and I also create creative graphic
+                designs. My goal is to turn ideas into digital
+                experiences that look professional and work
+                smoothly on all devices.
+            </p>
+
+            <div class="about-details">
+                <div class="about-detail">
+                    <span class="detail-icon">✦</span>
+                    <div>
+                        <h3>Web Development</h3>
+                        <p>Modern & Responsive Websites</p>
+                    </div>
+                </div>
+
+                <div class="about-detail">
+                    <span class="detail-icon">✦</span>
+                    <div>
+                        <h3>Graphic Designing</h3>
+                        <p>Creative & Professional Designs</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#contact" class="about-btn">
+                Let's Work Together <span>↗</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Reviews Section -->
+<section class="reviews" id="reviews">
+    <div class="reviews-container">
+
+        <div class="reviews-heading">
+            <p class="reviews-label">CLIENT FEEDBACK</p>
+
+            <h2>What People Say <span>About Me.</span></h2>
+
+            <p class="reviews-intro">
+                Building trust through creative work, quality
+                design and professional service.
+            </p>
+        </div>
+
+        <div class="reviews-grid">
+
+            <div class="review-card">
+                <div class="review-top">
+                    <div class="review-quote">“</div>
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <p class="review-text">
+                    Great attention to detail and a clean design
+                    approach. The website looks modern and is
+                    easy to use on different devices.
+                </p>
+
+                <div class="review-divider"></div>
+
+                <div class="review-person">
+                    <div class="review-avatar">C</div>
+                    <div>
+                        <h3>Abdullah Yasir</h3>
+                        <p>Website Project</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card featured-review">
+                <div class="review-top">
+                    <div class="review-quote">“</div>
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <p class="review-text">
+                    A professional and creative approach to
+                    web development. The layout is responsive,
+                    attractive and easy to navigate.
+                </p>
+
+                <div class="review-divider"></div>
+
+                <div class="review-person">
+                    <div class="review-avatar">C</div>
+                    <div>
+                        <h3>Raza Deswali</h3>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-top">
+                    <div class="review-quote">“</div>
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <p class="review-text">
+                    The graphic design work feels polished
+                    and well organized. Communication and
+                    attention to the project were appreciated.
+                </p>
+
+                <div class="review-divider"></div>
+
+                <div class="review-person">
+                    <div class="review-avatar">C</div>
+                    <div>
+                        <h3>Raffay Deswali</h3>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="reviews-bottom">
+            <span class="reviews-line"></span>
+            <p>THANK YOU FOR YOUR TRUST</p>
+            <span class="reviews-line"></span>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-container">
+
+        <div class="contact-heading">
+            <p class="contact-label">GET IN TOUCH</p>
+            <h2>Let's Work <span>Together.</span></h2>
+            <p>
+                Have a project in mind? Send me a message
+                and let's discuss your ideas.
+            </p>
+        </div>
+
+        <div class="contact-wrapper">
+
+            <div class="contact-info">
+                <p class="contact-small-title">LET'S CONNECT</p>
+                <h3>Have an idea?<br>Let's make it happen.</h3>
+                <p class="contact-info-text">
+                    Tell me about your project, website or
+                    graphic design requirements.
+                </p>
+
+                <div class="contact-info-item">
+                    <span class="contact-info-icon">@</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>m.rohanhafiz1@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <span class="contact-info-icon">↗</span>
+                    <div>
+                        <h4>My Services</h4>
+                        <p>Web Development & Graphic Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+
+                <!-- Replace this with your real Web3Forms access key -->
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="YOUR_ACCESS_KEY_HERE"
+                >
+
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="New Portfolio Contact Message"
+                >
+
+                <input
+                    type="hidden"
+                    name="from_name"
+                    value="Portfolio Website"
+                >
+
+                <!-- Spam protection -->
+                <input
+                    type="checkbox"
+                    name="botcheck"
+                    style="display:none"
+                    tabindex="-1"
+                >
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="name"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter phone number"
+                            autocomplete="tel"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell me about your project..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="contact-submit" id="submitBtn">
+                    <span id="submitText">Send Message</span>
+                    <span>↗</span>
+                </button>
+
+                <p
+                    class="form-status"
+                    id="formStatus"
+                    role="status"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
